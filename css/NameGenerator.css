@@ -5,7 +5,7 @@ body {
     max-width: 960px;
     padding: 40px 10px;
     line-height: 1.65em;
-     background-image: repeating-linear-gradient(36deg, rgba(0,0,0, 0.25), rgba(0,0,0, 0.25) 1px, transparent 0px, transparent 2px);
+     background-image: repeating-linear-gradient(45deg, rgba(206, 219, 20, 0.425), rgba(207, 24, 24, 0.25) 1px, transparent 0px, transparent 2px);
      background-size: 12px;
     border: 10px solid rgba(0,0,0,0.25);
     font-weight: 300;
@@ -18,12 +18,20 @@ body {
     
   }
   
-
+  .retroTxt h2{
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    margin: 30px auto 0;
+    color: rgb(11, 20, 139);
+    text-shadow: 1px 1px 1px rgb(76, 0, 255);
+    font-family: 'Titillium Web', sans-serif;
+  }
   
 
-  #WordLenght {
+  #WordLength {
     /*opacity: 0;*/
-    margin: 30px auto 0;
+    margin: 0px auto 0;
     display: block;
     width: 80px;
     height: 40px;
@@ -38,7 +46,7 @@ body {
 
 #wordbox {
   /*opacity: 0;*/
-  margin: 30px auto 0;
+  margin: 0px auto 0;
   display: block;
   width: 300px;
   height: 40px;
